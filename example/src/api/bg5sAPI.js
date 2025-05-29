@@ -10,6 +10,6 @@ export default {
     getOfflineData: (mac) => BG5SModule.getOfflineData(mac),
     startMeasure: (mac) => BG5SModule.startMeasure(mac, 1),
     setOfflineModel: (mac) => BG5SModule.setOfflineModel(mac, true),
-    disConnect: (mac) => BG5SModule.disConnect(mac)
+    disconnect: (mac) => BG5SModule.disConnect(mac)
   }
 }
