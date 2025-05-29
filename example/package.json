@@ -11,7 +11,7 @@
     "dev:ios": "yarn copy && yarn ios"
   },
   "dependencies": {
-    "@ihealth/ihealthlibrary-react-native": "file:../ihealth-ihealthlibrary-react-native-1.9.1.tgz",
+    "@ihealth/ihealthlibrary-react-native": "file:../ihealth-ihealthlibrary-react-native-1.9.0.tgz",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/native-stack": "^6.9.13",
     "@rneui/base": "^4.0.0-rc.7",
