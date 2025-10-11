@@ -1,17 +1,13 @@
 PODS:
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
-  - EXConstants (17.0.8):
+  - EXConstants (18.0.9):
     - ExpoModulesCore
-  - Expo (52.0.44):
+  - Expo (52.0.47):
     - ExpoModulesCore
-  - ExpoAsset (11.0.5):
+  - ExpoAsset (12.0.9):
     - ExpoModulesCore
-  - ExpoFileSystem (18.0.12):
-    - ExpoModulesCore
-  - ExpoFont (13.0.4):
-    - ExpoModulesCore
-  - ExpoKeepAwake (14.0.3):
+  - ExpoFont (14.0.9):
     - ExpoModulesCore
   - ExpoModulesCore (2.2.3):
     - DoubleConversion
@@ -36,7 +32,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - ExpoSplashScreen (0.29.22):
+  - ExpoSplashScreen (0.29.24):
     - ExpoModulesCore
   - fast_float (6.1.4)
   - FBLazyVector (0.76.9)
@@ -1597,7 +1593,7 @@ PODS:
     - React-logger
     - React-perflogger
     - React-utils (= 0.76.9)
-  - ReactNativeIOSLibrary (1.8.0):
+  - ReactNativeIOSLibrary (1.9.0):
     - React-Core
   - RNScreens (4.4.0):
     - DoubleConversion
@@ -1630,9 +1626,7 @@ DEPENDENCIES:
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - Expo (from `../node_modules/expo`)
   - ExpoAsset (from `../node_modules/expo-asset/ios`)
-  - ExpoFileSystem (from `../node_modules/expo-file-system/ios`)
   - ExpoFont (from `../node_modules/expo-font/ios`)
-  - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - ExpoModulesCore (from `../node_modules/expo-modules-core`)
   - ExpoSplashScreen (from `../node_modules/expo-splash-screen/ios`)
   - fast_float (from `../node_modules/react-native/third-party-podspecs/fast_float.podspec`)
@@ -1718,12 +1712,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo"
   ExpoAsset:
     :path: "../node_modules/expo-asset/ios"
-  ExpoFileSystem:
-    :path: "../node_modules/expo-file-system/ios"
   ExpoFont:
     :path: "../node_modules/expo-font/ios"
-  ExpoKeepAwake:
-    :path: "../node_modules/expo-keep-awake/ios"
   ExpoModulesCore:
     :path: "../node_modules/expo-modules-core"
   ExpoSplashScreen:
@@ -1863,14 +1853,12 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 1dca942403ed9342f98334bf4c3621f011aa7946
   DoubleConversion: f16ae600a246532c4020132d54af21d0ddb2a385
-  EXConstants: fcfc75800824ac2d5c592b5bc74130bad17b146b
-  Expo: 75e002fc29a18a72aa3db967b41b29c2b206875d
-  ExpoAsset: 48386d40d53a8c1738929b3ed509bcad595b5516
-  ExpoFileSystem: 42d363d3b96f9afab980dcef60d5657a4443c655
-  ExpoFont: f354e926f8feae5e831ec8087f36652b44a0b188
-  ExpoKeepAwake: b0171a73665bfcefcfcc311742a72a956e6aa680
+  EXConstants: a95804601ee4a6aa7800645f9b070d753b1142b3
+  Expo: 1687edb10c76b0c0f135306d6ae245379f50ed54
+  ExpoAsset: 9ba6fbd677fb8e241a3899ac00fa735bc911eadf
+  ExpoFont: cf9d90ec1d3b97c4f513211905724c8171f82961
   ExpoModulesCore: 725faec070d590810d2ea5983d9f78f7cf6a38ec
-  ExpoSplashScreen: cb4e3d3ee646ed59810f7776cca0ae5c03ab4285
+  ExpoSplashScreen: 399ee9f85b6c8a61b965e13a1ecff8384db591c2
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 7605ea4810e0e10ae4815292433c09bf4324ba45
   fmt: 01b82d4ca6470831d1cc0852a1af644be019e8f6
@@ -1933,7 +1921,7 @@ SPEC CHECKSUMS:
   React-utils: ed818f19ab445000d6b5c4efa9d462449326cc9f
   ReactCodegen: f853a20cc9125c5521c8766b4b49375fec20648b
   ReactCommon: 300d8d9c5cb1a6cd79a67cf5d8f91e4d477195f9
-  ReactNativeIOSLibrary: b423449c0ad1911f4d89655d1b96f317e7619d8f
+  ReactNativeIOSLibrary: e0036f386801978a128a90b428d1e055760bf9d5
   RNScreens: 295d9c0aaeb7f680d03d7e9b476569a4959aae89
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: feb4910aba9742cfedc059e2b2902e22ffe9954a
