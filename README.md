@@ -2,6 +2,10 @@
 
 ## Release note
 
+### V1.9.1
+1. Support Android 16KB
+3. Fix bug
+
 ### V1.9.0
 1. Adapt to Android 15
 2. Optimize code
