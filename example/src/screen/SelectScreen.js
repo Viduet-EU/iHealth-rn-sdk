@@ -3,13 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import { ListItem } from '@rneui/themed';
 
 
-const DeviceTypes = [
-    'AM3S', 'AM4',  'AM6',
-    'BG1', 'BG1S', 'BG5', 'BG5S', 'BG1A',
-    'BP3L', 'BP5', 'BP5S', 'BP7', 'BP7S', 'KN550',
-    'HS2', 'HS4', 'HS4S', 'HS6',
-    'PO1', 'PO3',
-    'FDIR_V3','TS28B', 'NT13B', 'PT3SBT',
+const DeviceTypes = [ 'AM6','BG5S', 'BP5S',  'KN550', 'BG1S',
     'HS2S', 'HS2S Pro'
 ]
 
